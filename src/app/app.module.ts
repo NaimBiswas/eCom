@@ -21,6 +21,8 @@ import { BlogDetailsComponent } from './pages/blog/blog-details/blog-details.com
 import { ContactComponent } from './pages/contact/contact.component';
 import { SmallAddComponent } from './shared/small-add/small-add.component';
 import { SlidingProductsComponent } from './shared/sliding-products/sliding-products.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SignUpComponent } from './pages/sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { SlidingProductsComponent } from './shared/sliding-products/sliding-prod
     ContactComponent,
     SmallAddComponent,
     SlidingProductsComponent,
+    LoginComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
