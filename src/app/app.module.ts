@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 import { HeaderComponent } from './shared/header/header.component';
 import { HeaderTopComponent } from './shared/header/header-top/header-top.component';
 import { SideBarComponent } from './shared/side-bar/side-bar.component';
@@ -23,7 +24,10 @@ import { SmallAddComponent } from './shared/small-add/small-add.component';
 import { SlidingProductsComponent } from './shared/sliding-products/sliding-products.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignUpComponent } from './pages/sign-up/sign-up.component';
-
+import { CategorySliderComponent } from './shared/category-slider/category-slider.component';
+import { BlogPostGridComponent } from './shared/blog-post-grid/blog-post-grid.component';
+import { ProductsGridComponent } from './shared/products-grid/products-grid.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,10 +51,15 @@ import { SignUpComponent } from './pages/sign-up/sign-up.component';
     SlidingProductsComponent,
     LoginComponent,
     SignUpComponent,
+    CategorySliderComponent,
+    BlogPostGridComponent,
+    ProductsGridComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
