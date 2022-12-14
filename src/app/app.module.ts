@@ -28,6 +28,10 @@ import { CategorySliderComponent } from './shared/category-slider/category-slide
 import { BlogPostGridComponent } from './shared/blog-post-grid/blog-post-grid.component';
 import { ProductsGridComponent } from './shared/products-grid/products-grid.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BreadcumSectionComponent } from './shared/breadcum-section/breadcum-section.component';
+import { ProductGridSliderComponent } from './shared/product-grid-slider/product-grid-slider.component';
+import { ShopSideBarComponent } from './pages/shop/shop-side-bar/shop-side-bar.component';
+import { PaginationsComponent } from './core/paginations/paginations.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,6 +58,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CategorySliderComponent,
     BlogPostGridComponent,
     ProductsGridComponent,
+    BreadcumSectionComponent,
+    ProductGridSliderComponent,
+    ShopSideBarComponent,
+    PaginationsComponent,
   ],
   imports: [
     BrowserModule,

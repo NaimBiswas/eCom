@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  viewType: string = 'col-lg-3'
   constructor() { }
 
   ngOnInit(): void {
