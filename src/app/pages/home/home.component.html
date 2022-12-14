@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-3">
-        <app-side-bar></app-side-bar>
+        <app-side-bar [isFullBarShow]="true"></app-side-bar>
       </div>
       <div class="col-lg-9">
         <app-header-bottom></app-header-bottom>
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-    <app-products-grid></app-products-grid>
+    <app-products-grid [perGridView]="viewType"></app-products-grid>
   </div>
 </section>
 <!-- small add section  -->
