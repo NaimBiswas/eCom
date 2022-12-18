@@ -37,6 +37,7 @@ import { ProductDetailsComponent } from './pages/shop-details/product-details/pr
 import { ProductReviewStartComponent } from './pages/shop-details/product-review-start/product-review-start.component';
 import { SocialSharedComponent } from './shared/social-shared/social-shared.component';
 import { FormsModule } from '@angular/forms';
+import { ProductImageHoverComponent } from './shared/product-image-hover/product-image-hover.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -71,6 +72,7 @@ import { FormsModule } from '@angular/forms';
     ProductDetailsComponent,
     ProductReviewStartComponent,
     SocialSharedComponent,
+    ProductImageHoverComponent,
   ],
   imports: [
     BrowserModule,
