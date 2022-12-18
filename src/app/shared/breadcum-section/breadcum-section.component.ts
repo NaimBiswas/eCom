@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BreadcumSectionComponent implements OnInit {
 @Input()
   breadCumTitle: String | undefined = "Shop"
+  @Input()
+  topTitle: String | undefined = "Shop"
   constructor() { }
 
   ngOnInit(): void {
