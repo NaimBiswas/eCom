@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-breadcum-section',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./breadcum-section.component.scss']
 })
 export class BreadcumSectionComponent implements OnInit {
-
+@Input()
+  breadCumTitle: String | undefined = "Shop"
   constructor() { }
 
   ngOnInit(): void {

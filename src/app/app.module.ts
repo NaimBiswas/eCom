@@ -32,6 +32,11 @@ import { BreadcumSectionComponent } from './shared/breadcum-section/breadcum-sec
 import { ProductGridSliderComponent } from './shared/product-grid-slider/product-grid-slider.component';
 import { ShopSideBarComponent } from './pages/shop/shop-side-bar/shop-side-bar.component';
 import { PaginationsComponent } from './core/paginations/paginations.component';
+import { ProductImageViewerComponent } from './pages/shop-details/product-image-viewer/product-image-viewer.component';
+import { ProductDetailsComponent } from './pages/shop-details/product-details/product-details.component';
+import { ProductReviewStartComponent } from './pages/shop-details/product-review-start/product-review-start.component';
+import { SocialSharedComponent } from './shared/social-shared/social-shared.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,12 +67,17 @@ import { PaginationsComponent } from './core/paginations/paginations.component';
     ProductGridSliderComponent,
     ShopSideBarComponent,
     PaginationsComponent,
+    ProductImageViewerComponent,
+    ProductDetailsComponent,
+    ProductReviewStartComponent,
+    SocialSharedComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule, 
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
