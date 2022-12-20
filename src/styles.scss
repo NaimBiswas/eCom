@@ -1,11 +1,4 @@
-/******************************************************************
-  Template Name: Ogani
-  Description:  Ogani eCommerce  HTML Template
-  Author: Colorlib
-  Author URI: https://colorlib.com
-  Version: 1.0
-  Created: Colorlib
-******************************************************************/
+
 
 /*------------------------------------------------------------------
 [Table of contents]
@@ -415,7 +408,10 @@ ol {
 .header__logo a {
 	display: inline-block;
 }
-
+.header__logo a img {
+	width: 100px;
+    height: 50px;
+}
 .header__menu {
 	padding: 24px 0;
 }
@@ -2639,6 +2635,10 @@ ol {
 
 .footer__about__logo a {
 	display: inline-block;
+}
+.footer__about__logo a img {
+	width: 100px;
+    height: 50px;
 }
 
 .footer__widget {

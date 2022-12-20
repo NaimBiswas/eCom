@@ -1,10 +1,10 @@
 /*  ---------------------------------------------------
     Template Name: Ogani
     Description:  Ogani eCommerce  HTML Template
-    Author: Colorlib
-    Author URI: https://colorlib.com
+    Author: Naim Biswas
+    Author URI: https://naimbiswas.github.io/portfolio-nb/
     Version: 1.0
-    Created: Colorlib
+    Created: Naim Biswas
 ---------------------------------------------------------  */
 // @ts-nocheck - may need to be at the start of file
 // var  $  = require("jquery")
