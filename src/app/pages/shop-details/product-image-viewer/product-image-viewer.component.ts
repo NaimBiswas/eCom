@@ -7,17 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductImageViewerComponent implements OnInit {
 
-  constructor() {
-    (<any>$("select")).niceSelect();
-    $('.product__details__pic__slider img').on('click', function () {
-      var imgurl = $(this).data('imgbigurl');
-      var bigImg = $('.product__details__pic__item--large').attr('src');
-      if (imgurl != bigImg) {
-          $('.product__details__pic__item--large').attr({
-              src: imgurl
-          });
-      }
-    });
+  constructor() { }
+  
+  ngOnInit(): void {
     (<any>$(".product__details__pic__slider")).owlCarousel({
       loop: true,
       margin: 20,
@@ -27,10 +19,17 @@ export class ProductImageViewerComponent implements OnInit {
       autoHeight: false,
       autoplay: true
     });
-   }
-  
-  ngOnInit(): void {
-
+    $('.product__details__pic__slider img').on('click', function () {
+      var imgurl = $(this).data('imgbigurl');
+      console.log(imgurl);
+      
+      var bigImg = $('.product__details__pic__item--large').attr('src');
+      if (imgurl != bigImg) {
+          $('.product__details__pic__item--large').attr({
+              src: imgurl
+          });
+      }
+    });   
   }
 
 }
