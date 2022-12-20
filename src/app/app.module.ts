@@ -38,6 +38,10 @@ import { ProductReviewStartComponent } from './pages/shop-details/product-review
 import { SocialSharedComponent } from './shared/social-shared/social-shared.component';
 import { FormsModule } from '@angular/forms';
 import { ProductImageHoverComponent } from './shared/product-image-hover/product-image-hover.component';
+import { BillingDetailsComponent } from './pages/check-out/billing-details/billing-details.component';
+import { OrderDetailsComponent } from './pages/check-out/order-details/order-details.component';
+import { PreLoaderComponent } from './shared/pre-loader/pre-loader.component';
+import { HumbergerMenuComponent } from './shared/humberger-menu/humberger-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -73,6 +77,10 @@ import { ProductImageHoverComponent } from './shared/product-image-hover/product
     ProductReviewStartComponent,
     SocialSharedComponent,
     ProductImageHoverComponent,
+    BillingDetailsComponent,
+    OrderDetailsComponent,
+    PreLoaderComponent,
+    HumbergerMenuComponent,
   ],
   imports: [
     BrowserModule,
