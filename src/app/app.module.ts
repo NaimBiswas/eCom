@@ -42,6 +42,7 @@ import { BillingDetailsComponent } from './pages/check-out/billing-details/billi
 import { OrderDetailsComponent } from './pages/check-out/order-details/order-details.component';
 import { PreLoaderComponent } from './shared/pre-loader/pre-loader.component';
 import { HumbergerMenuComponent } from './shared/humberger-menu/humberger-menu.component';
+import { PageLoaderComponent } from './shared/page-loader/page-loader.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -81,6 +82,7 @@ import { HumbergerMenuComponent } from './shared/humberger-menu/humberger-menu.c
     OrderDetailsComponent,
     PreLoaderComponent,
     HumbergerMenuComponent,
+    PageLoaderComponent,
   ],
   imports: [
     BrowserModule,
