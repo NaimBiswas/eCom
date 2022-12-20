@@ -43,6 +43,9 @@ import { OrderDetailsComponent } from './pages/check-out/order-details/order-det
 import { PreLoaderComponent } from './shared/pre-loader/pre-loader.component';
 import { HumbergerMenuComponent } from './shared/humberger-menu/humberger-menu.component';
 import { PageLoaderComponent } from './shared/page-loader/page-loader.component';
+import { ContactAddressComponent } from './pages/contact/contact-address/contact-address.component';
+import { MapComponent } from './pages/contact/map/map.component';
+import { ContactFormComponent } from './pages/contact/contact-form/contact-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -83,6 +86,9 @@ import { PageLoaderComponent } from './shared/page-loader/page-loader.component'
     PreLoaderComponent,
     HumbergerMenuComponent,
     PageLoaderComponent,
+    ContactAddressComponent,
+    MapComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,

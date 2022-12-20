@@ -1,1 +1,23 @@
-<p>contact works!</p>
+<section class="hero hero-normal">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <app-side-bar [isFullBarShow]='false'></app-side-bar>
+            </div>
+            <div class="col-lg-9">
+                <app-header-bottom></app-header-bottom>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- breadcrumb section  -->
+<app-breadcum-section breadCumTitle="Contact Us" topTitle="Contact Us"></app-breadcum-section>
+
+<!-- contact details  -->
+<app-contact-address></app-contact-address>
+<!-- Map  -->
+<app-map></app-map>
+<!-- contact form  -->
+<app-contact-form></app-contact-form>
